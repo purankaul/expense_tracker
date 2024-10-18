@@ -11,8 +11,8 @@ Features
 
 Frontend:
 * HTML
-*CSS
-*JavaScript
+* CSS
+* JavaScript
 
 Backend:
 
