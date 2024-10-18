@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  #balanceAmount {
+    font-size: 2em;
+    color: green;
+  }
+  
+  .money {
+    font-size: 1.5em;
+  }
+  
+  .money.plus {
+    color: green;
+  }
+  
+  .money.minus {
+    color: red;
+  }
+  
+  .list {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-right: 5px solid green;
+  }
+  
+  .list li.minus {
+    border-color: red;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .form-control input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
