@@ -8,11 +8,12 @@ Features
 4) Store transactions in a MySQL database.
 5) Backend API to fetch, add, and delete transactions.
 6) Technologies Used
-Frontend:
 
+Frontend:
 * HTML
 *CSS
 *JavaScript
+
 Backend:
 
 * Node.js
